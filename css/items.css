@@ -1,0 +1,125 @@
+
+div.topside {
+	width : 1300px;
+	height : 500px;
+	border : 2px solid black;
+	margin : 10px 10px 0px 20px;
+}
+
+div.bottomside {
+	width : 1300px;
+	height : 90px;
+	border : 2px solid black;
+	margin: 20px 10px 0px 20px;
+}
+
+div.leftside {
+	width : 440px;
+	height : 470px;
+	float : left;
+	margin : 15px 10px 10px 15px;
+}
+
+div.rightside {
+	width : 815px;
+	height : 470px;
+	margin : 19px 10px 10px 470px;
+}
+
+ul.itemdata {
+	width : auto;
+	margin-left : 5px !important;
+	margin-right : 5px !important;
+	border : 1px solid black;
+	list-style-type: none;
+	padding-left : 0px !important;
+	overflow-y : scroll;
+}
+
+ul#itemnames {
+	height : 250px;
+	margin-bottom : 0px !important;
+	margin-top : 5px !important;
+}
+
+ul#itemtypes {
+	height : 200px;
+	margin-top : 5px !important;
+}
+
+li.listItem {
+	height : 40px;
+	border : 1px solid black;
+	font-weight : 600;
+	font-size : large;
+	font-family : verdana;
+	padding: 15px 0px 0px 170px;
+}
+
+li.listitem:hover {
+	cursor : pointer;
+	background-color : lightblue;
+	color : white;
+}
+
+button.btnItemCls {
+	width : 170px;
+	height : 40px;
+	font-weight : bold;
+	margin : 23px 0px 0px 200px;
+}
+
+p.data-property {
+	width : auto;
+	font-weight : bold;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 5px;
+/*	border : 1px dotted black;*/
+	margin-top : 2px !important;
+	margin-left : 2px !important;
+	margin-right : 2px !important;
+	margin-bottom : 0px !important;
+}
+
+div.item-property {
+	width : auto;
+	height : 70px;
+	margin-top : 2px !important;
+	margin-left : 2px !important;
+	margin-right : 2px !important;
+	border : 1px solid black;
+}
+
+div.item-description {
+	width : auto;
+	height : 185px;
+	margin-top : 2px !important;
+	margin-left : 2px !important;
+	margin-right : 2px !important;
+	border : 1px solid black;
+}
+
+div.property-value {
+	width : auto;
+	height : 110px;
+/*	border : 1px solid black;*/
+	margin-top : 5px !important;
+	margin-left : 5px !important;
+	margin-right : 5px !important;
+}
+
+div.property-description {
+	width : auto;
+	height : 225px;
+/*	border : 1px solid black;*/
+	margin-top : 5px !important;
+	margin-left : 5px !important;
+	margin-right : 5px !important;
+}
+
+input[type=text], textarea {
+	width : 780px !important;
+	margin-left : 5px !important;
+}
+
